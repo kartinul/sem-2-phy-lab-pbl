@@ -114,7 +114,7 @@ with col1:
     st.pyplot(fig, use_container_width=True)
 
 with col2:
-    st.metric("Current Power Output", f"{Pmax:.3f} W")
+    st.subheader(f"Current Power: {Pmax:.3f} W")
     st.subheader("Key Parameters")
     r1c1, r1c2 = st.columns(2)
     with r1c1:

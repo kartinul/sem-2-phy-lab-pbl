@@ -6,7 +6,7 @@ from matplotlib.patches import Arc
 st.set_page_config(page_title="Solar Cell Simulator", layout="wide")
 plt.style.use("dark_background")
 
-st.title("Solar Panel Simulation Dashboard")
+st.title("Solar Panel Simulation")
 
 c1, c2 = st.columns(2)
 with c1:

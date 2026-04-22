@@ -111,7 +111,6 @@ with col1:
     ax.set_xlim(-0.4, 1.4)
     ax.set_ylim(-0.1, 1.0)
     ax.axis("off")
-    fig.tight_layout()
     st.pyplot(fig, use_container_width=True)
 
 with col2:
@@ -149,7 +148,6 @@ with g_c1:
     ax3.tick_params(labelsize=8)
     ax3.grid(alpha=0.2)
     ax3.legend(fontsize=8)
-    fg3.tight_layout()
     st.pyplot(fg3, use_container_width=True)
 with g_c2:
     fg4, ax4 = plt.subplots(figsize=(6, 4), dpi=100)
@@ -161,5 +159,4 @@ with g_c2:
     ax4.tick_params(labelsize=8)
     ax4.grid(alpha=0.2)
     ax4.legend(fontsize=8)
-    fg4.tight_layout()
     st.pyplot(fg4, use_container_width=True)
